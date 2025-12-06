@@ -1,0 +1,78 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    background-color: #212121;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Navbar Styling */
+  nav {
+    background-color: #121212;
+    padding: 1rem 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    color: #1db954;
+  }
+  /* Biography Section */
+  .biography {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .bio-box {
+    margin-bottom: 60px;
+    background-color: #535353;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: white;
+    text-align: justify;
+  }

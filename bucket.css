@@ -1,0 +1,135 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  body {
+    background-color: #212121;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  /* Navbar Styling */
+  nav {
+    background-color: #121212;
+    padding: 1rem 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    color: #1db954;
+  }
+  
+  * Header styles */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  /* Bucket list container */
+  .bucket-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Individual bucket list item */
+  .bucket-item {
+    background-color: #535353;
+    
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bucket-item h2 {
+    font-size: 1.8rem;
+    color: #1db954;
+    margin-bottom: 10px;
+  }
+  
+  .bucket-item p {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  /* Checkbox styles */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .bucket-item h2 {
+      font-size: 1.5rem;
+    }
+  
+    .bucket-item p {
+      font-size: 1rem;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  }
+ 
+  
+  /* Go Top Button */
+.go-top {
+  position: fixed;  /* Make sure it's fixed relative to the viewport */
+  bottom: 20px;     /* Adjust distance from the bottom */
+  right: 20px;      /* Adjust distance from the right */
+  padding: 15px 30px;
+  background-color: #1db954;
+  color: #121212;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s ease; /* Smooth color transition */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  
+  .go-top:hover {
+    color: white; /* Change text color to white */
+  }
+  
